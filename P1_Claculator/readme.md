@@ -16,14 +16,6 @@ This is a basic command-line calculator written in Python. It takes arithmetic e
 
 ---
 
-## 🧑‍💻 Usage
-
-Run the script from your terminal:
-
-```bash
-python calculator.py
-
-
 # 🛠️ Future Improvements – Python Calculator
 
 This document outlines the planned upgrades and enhancements for the Python calculator project. The current version is a command-line based calculator, and the goal is to gradually evolve it into a more powerful and user-friendly tool.
@@ -91,4 +83,14 @@ Want to help bring these improvements to life? Feel free to fork the repo, make 
 ## 📌 Note
 
 The roadmap above is flexible and will evolve as development progresses. Feedback and suggestions are always welcome!
+
+
+
+## 🧑‍💻 Usage
+
+Run the script from your terminal:
+
+```bash
+python calculator.py
+
 
