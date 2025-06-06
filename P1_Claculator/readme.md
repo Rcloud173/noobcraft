@@ -92,5 +92,3 @@ Run the script from your terminal:
 
 ```bash
 python calculator.py
-
-
