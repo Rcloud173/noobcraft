@@ -54,6 +54,8 @@
 
 print("this is a to-do list")
 
+todo_list = []
+
 def show_menu():
     print("\n--- To-Do List ---")
     print("1. Show To-Do List")
@@ -61,4 +63,10 @@ def show_menu():
     print("3. Remove Task")
     print("4. Exit")
 
-show_menu()
+def show_tasks():
+    if not todo_list:
+        print("Your to-do list is empty.")
+    else:
+        print("\nYour Tasks:")
+        for i, task in enumerate(todo_list, 1):
+            print(f"{i}. {task}")
