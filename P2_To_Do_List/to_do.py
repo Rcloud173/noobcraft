@@ -53,3 +53,12 @@
 # this is written by ai write it on your own if and only if use it for Reference
 
 print("this is a to-do list")
+
+def show_menu():
+    print("\n--- To-Do List ---")
+    print("1. Show To-Do List")
+    print("2. Add Task")
+    print("3. Remove Task")
+    print("4. Exit")
+
+show_menu()
